@@ -17,7 +17,7 @@ It is used for discrete counts. In laymen terms, it count how often word occurs 
 The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups.</br>
 First, we need to transform the dataset articles into a proper format that can be consumed by a NaiveBayes model. And the technique that we're gonna use to preprocess the data is called ***Bag of Words***.
 ### ***"Bag of Words"*** includes few steps:
-* Tokenization
-* Dictionary Making
-* Feature Preparation
-* DataFrame Making
+* Tokenization: Get tokens from all articles
+* Dictionary Making: Count all tokens
+* Feature Preparation: Extracting top few thousand tokens possessing the maximum frequency
+* DataFrame Making: Making Dataframe with tokens as columns, articles as rows & the token count in that article as values
