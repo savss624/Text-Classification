@@ -24,6 +24,6 @@ First, we need to transform the dataset articles into a proper format that can b
 * DataFrame Making: Making Dataframe with tokens as columns, articles as rows & the token count in that article as values
 
 ## Modeling
-Next and the most important step is model making.
+Next and the most important step, model making.
 ### Fit Function: 
 Here, we will make a dictionary with model classes as keys, a new dictionary as its value & this dictionary has model features as keys and its count in the training data of class(key of parent dictionary).
