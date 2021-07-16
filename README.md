@@ -13,6 +13,11 @@ Here, I'm using Multinomial NaiveBayes which is quite powerful and fast when it 
 ### But What is Multinomial Naive Bayes? 
 It is used for discrete counts. In laymen terms, it count how often word occurs in the document, you can think of it as “number of times outcome number 𝑥𝑖 is observed over the n trials”.
 
-
 ## Data - [20 Newsgroups](http://archive.ics.uci.edu/ml/datasets/Twenty+Newsgroups)
-The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups.
+The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups.</br>
+First, we need to transform the dataset articles into a proper format that can be consumed by a NaiveBayes model. And the technique that we're gonna use to preprocess the data is called ***Bag of Words***.
+### ***"Bag of Words"*** includes few steps:
+* Tokenization
+* Dictionary Making
+* Feature Preparation
+* DataFrame Making
