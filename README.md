@@ -29,4 +29,15 @@ Next and the most important step, model making.
 Fit Function prepares a dictionary with model classes as keys, a new dictionary as its value & this dictionary has model features as keys and its count in the training data of class(key of parent dictionary).
 
 ### Predict Function:
-The Predict Functions calculates the probability of all the classes for an article, then predict the class which possess the maximum.
+The Predict Functions calculates the probability of all the classes for an article using Bayes Theorem and Laplace Correction, then predict the class which possess the maximum.
+
+Now, we have the processed data & the model. So
+## Let's make some predictions
+On testing the 25% of the original data, Our model gave us some pretty accurate predictions.
+Let's have a look at model stats:
+
+![model stats](https://github.com/savss624/Readme-Images/blob/main/20NewsGroup/stats.png)
+Our Classification Model actually works. We achieved the 86% accuracy.
+
+## Additional Info
+Naive Bayes classifiers mostly used in text classification (due to better result in multi class problems and independence rule) have higher success rate as compared to other algorithms. As a result, it is widely used in Spam filtering (identify spam e-mail) and Sentiment Analysis (in social media analysis, to identify positive and negative customer sentiments)
