@@ -26,4 +26,7 @@ First, we need to transform the dataset articles into a proper format that can b
 ## Modeling
 Next and the most important step, model making.
 ### Fit Function: 
-Here, we will make a dictionary with model classes as keys, a new dictionary as its value & this dictionary has model features as keys and its count in the training data of class(key of parent dictionary).
+Fit Function prepares a dictionary with model classes as keys, a new dictionary as its value & this dictionary has model features as keys and its count in the training data of class(key of parent dictionary).
+
+### Predict Function:
+The Predict Functions calculates the probability of all the classes for an article, then predict the class which possess the maximum.
