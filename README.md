@@ -1,9 +1,14 @@
-# 20 Newsgroups Classification
+# 20 Newsgroups Text Classification 
 
+![intro image](https://lionbridge.ai/wp-content/uploads/2019/12/2019-12-11_14-best-text-classification.jpg)
 ## Text Classification
 Text classification or Text Categorization is the activity of labeling natural language texts with relevant categories from a predefined set. In laymen terms, text classification is a process of extracting generic tags from unstructured text. These generic tags come from a set of pre-defined categories. Classifying your content and products into categories help users to easily search and navigate within website or application.
 
 ## Approach - NAIVE BAYES
+NaiveBayes works on Bayes Theorem
+
+![bayes theorem](https://github.com/savss624/Readme-Images/blob/main/20NewsGroup/bayes.png)
+
 There are three types of Naive Bayes models under the scikit-learn library:
 * Gaussian
 * Multinomial
@@ -37,6 +42,7 @@ On testing the 25% of the original data, Our model gave us some pretty accurate 
 Let's have a look at model stats:
 
 ![model stats](https://github.com/savss624/Readme-Images/blob/main/20NewsGroup/stats.png)
+
 Our Classification Model actually works. We achieved the 86% accuracy.
 
 ## Additional Info
