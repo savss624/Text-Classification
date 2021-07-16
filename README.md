@@ -43,7 +43,7 @@ Let's have a look at model stats:
 
 ![model stats](https://github.com/savss624/Readme-Images/blob/main/20NewsGroup/stats.png)
 
-Our Classification Model actually works. We achieved the 86% accuracy.
+Our Classification Model actually works. We achieved **86%** accuracy.
 
 ## Additional Info
 Naive Bayes classifiers mostly used in text classification (due to better result in multi class problems and independence rule) have higher success rate as compared to other algorithms. As a result, it is widely used in Spam filtering (identify spam e-mail) and Sentiment Analysis (in social media analysis, to identify positive and negative customer sentiments)
